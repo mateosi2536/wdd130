@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+:root {
+    --primary-color: #120907;
+    --secondary-color: #143561;
+    --accent1-color: #145d8b;
+    --accent2-color: #209fd9;
+
+    --heading-font: 'Playwrite IT Moderna', cursive;
+
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #2f826c;
+    --nav-background-color: #3834a1;
+    --nav-hover-background-color: #0c3429;
+}
+
+body {
+    font-family: var(--heading-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+header {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}   
+
+header nav {
+    background-color: var(--accent2-color);
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-around; 
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent1-color);
+}
+
+footer nav{
+    padding: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    color: var(--nav-link-color);
+    background-color: var(--accent1-color);
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: auto;
+    width: 100%;
+}
+
+.hero article {
+    color: var(--nav-link-color);
+    background-color: var(--accent2-color);
+    position: absolute;
+    top: 320px;
+    right: auto;
+    width: 100%;
+}
+
+.hero article img {
+    height: 120px;
+    width: auto;
+    float: right;
+    padding: 30px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
