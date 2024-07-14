@@ -49,4 +49,5 @@ form button {
     color: white;
     background-color: rgb(23, 61, 92);
     height: 40px;
+    border-radius: 5px;
 }
